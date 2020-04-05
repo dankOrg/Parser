@@ -3,3 +3,5 @@ venv
 *.cpython*
 *.pyc
 *.json
+.DS_Store
+__pycache__

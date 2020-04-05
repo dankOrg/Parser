@@ -1,7 +1,6 @@
 class Message:
-    print("sup")
-    content = ""    #text sent
-    #Photos = array of media
-    #Reactions = array of reactions
-    #timestamp
-    #type
+    def __init__(self, content, photos, timestamp, type);
+        self.content = content
+        self.photos = photos
+        self.timestamp = timestamp
+        #type

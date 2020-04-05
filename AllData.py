@@ -1,3 +1,3 @@
 class AllData:
-    #array of groups
-    print("sup")
+  def __init__(self, messages):
+      self.messages = messages

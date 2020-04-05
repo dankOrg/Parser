@@ -1,4 +1,4 @@
 class Media:
-    #creation time stamp
-    #image data
-    print("Media")
+    def __init__(sef, timestamp, mediaData):
+        self.timestamp = timestamp
+        self.mediaData = mediaData

@@ -1,5 +1,5 @@
 
-class ReactionType(Enum):
+class ReactionType():
     HEART="unicode"
     SMILE="unicode"
     OOH="unicode"
@@ -8,6 +8,8 @@ class ReactionType(Enum):
     UPVOTE="unicode"
     DOWNVOTE="unicode"
 
+    '''
     def parseReactionFromString(strToParse):
         # Write code to parse to Reaction From Sring
+    '''
 

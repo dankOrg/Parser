@@ -1,7 +1,7 @@
 class User:
-    def __init__(self,name):
+    def __init__(self, name):
         if name != None:
-            self.name == name
+            self.name = name
         return None
     
     def getName(self):

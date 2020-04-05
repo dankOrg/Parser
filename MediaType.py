@@ -5,4 +5,5 @@ class MediaType():
     
     def parseReactionFromString(strToParse):
         # Write code to parse to Reaction From Sring
+        pass
 

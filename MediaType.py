@@ -3,7 +3,7 @@ class MediaType():
     PNG="png"
     JPG="jpg"
     
-    def parseReactionFromString(strToParse):
+    @staticmethod
+    def parseMediaFromString(strToParse):
         # Write code to parse to Reaction From Sring
-        pass
-
+        return MediaType.GIF

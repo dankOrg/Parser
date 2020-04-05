@@ -16,6 +16,7 @@ def main():
     groupObj = Group(groupJson['participants'], groupJson['messages'], groupJson['title'],
         groupJson['is_still_participant'], groupJson['thread_type'], groupJson['thread_path'])
     
+    return groupObj
 
 if __name__ == "__main__":
     main()
